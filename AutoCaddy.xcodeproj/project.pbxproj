@@ -13,7 +13,6 @@
 		9031955F1A39E0EF005F688D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9031955E1A39E0EF005F688D /* Images.xcassets */; };
 		903195621A39E0EF005F688D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903195601A39E0EF005F688D /* MainMenu.xib */; };
 		9031956E1A39E0EF005F688D /* AutoCaddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9031956D1A39E0EF005F688D /* AutoCaddyTests.swift */; };
-		903195781A39E577005F688D /* AutoCaddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903195771A39E577005F688D /* AutoCaddy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +36,6 @@
 		903195671A39E0EF005F688D /* AutoCaddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCaddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9031956C1A39E0EF005F688D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9031956D1A39E0EF005F688D /* AutoCaddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCaddyTests.swift; sourceTree = "<group>"; };
-		903195771A39E577005F688D /* AutoCaddy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCaddy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +77,6 @@
 		903195561A39E0EF005F688D /* AutoCaddy */ = {
 			isa = PBXGroup;
 			children = (
-				903195771A39E577005F688D /* AutoCaddy.swift */,
 				903195591A39E0EF005F688D /* AppDelegate.swift */,
 				9031955E1A39E0EF005F688D /* Images.xcassets */,
 				903195601A39E0EF005F688D /* MainMenu.xib */,
@@ -215,7 +212,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				903195781A39E577005F688D /* AutoCaddy.swift in Sources */,
 				9031955D1A39E0EF005F688D /* AutoCaddy.xcdatamodeld in Sources */,
 				9031955A1A39E0EF005F688D /* AppDelegate.swift in Sources */,
 			);
