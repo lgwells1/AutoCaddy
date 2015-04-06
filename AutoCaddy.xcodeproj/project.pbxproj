@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46779CDB1A586C47007494D7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 46779CDA1A586C47007494D7 /* Credits.rtf */; };
+		9031955A1A39E0EF005F688D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903195591A39E0EF005F688D /* AppDelegate.swift */; };
+		9031955D1A39E0EF005F688D /* AutoCaddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9031955B1A39E0EF005F688D /* AutoCaddy.xcdatamodeld */; };
+		9031955F1A39E0EF005F688D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9031955E1A39E0EF005F688D /* Images.xcassets */; };
+		903195621A39E0EF005F688D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903195601A39E0EF005F688D /* MainMenu.xib */; };
+		9031956E1A39E0EF005F688D /* AutoCaddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9031956D1A39E0EF005F688D /* AutoCaddyTests.swift */; };
+		903195781A39E577005F688D /* AutoCaddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903195771A39E577005F688D /* AutoCaddy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		903195681A39E0EF005F688D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9031954C1A39E0EE005F688D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 903195531A39E0EF005F688D;
+			remoteInfo = AutoCaddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46779CDA1A586C47007494D7 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		903195541A39E0EF005F688D /* AutoCaddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCaddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		903195581A39E0EF005F688D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903195591A39E0EF005F688D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9031955C1A39E0EF005F688D /* AutoCaddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AutoCaddy.xcdatamodel; sourceTree = "<group>"; };
+		9031955E1A39E0EF005F688D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		903195611A39E0EF005F688D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		903195671A39E0EF005F688D /* AutoCaddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCaddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9031956C1A39E0EF005F688D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9031956D1A39E0EF005F688D /* AutoCaddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCaddyTests.swift; sourceTree = "<group>"; };
+		903195771A39E577005F688D /* AutoCaddy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCaddy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		903195511A39E0EF005F688D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903195641A39E0EF005F688D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9031954B1A39E0EE005F688D = {
+			isa = PBXGroup;
+			children = (
+				903195561A39E0EF005F688D /* AutoCaddy */,
+				9031956A1A39E0EF005F688D /* AutoCaddyTests */,
+				903195551A39E0EF005F688D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		903195551A39E0EF005F688D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				903195541A39E0EF005F688D /* AutoCaddy.app */,
+				903195671A39E0EF005F688D /* AutoCaddyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		903195561A39E0EF005F688D /* AutoCaddy */ = {
+			isa = PBXGroup;
+			children = (
+				903195771A39E577005F688D /* AutoCaddy.swift */,
+				903195591A39E0EF005F688D /* AppDelegate.swift */,
+				9031955E1A39E0EF005F688D /* Images.xcassets */,
+				903195601A39E0EF005F688D /* MainMenu.xib */,
+				9031955B1A39E0EF005F688D /* AutoCaddy.xcdatamodeld */,
+				903195571A39E0EF005F688D /* Supporting Files */,
+			);
+			path = AutoCaddy;
+			sourceTree = "<group>";
+		};
+		903195571A39E0EF005F688D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46779CDA1A586C47007494D7 /* Credits.rtf */,
+				903195581A39E0EF005F688D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9031956A1A39E0EF005F688D /* AutoCaddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9031956D1A39E0EF005F688D /* AutoCaddyTests.swift */,
+				9031956B1A39E0EF005F688D /* Supporting Files */,
+			);
+			path = AutoCaddyTests;
+			sourceTree = "<group>";
+		};
+		9031956B1A39E0EF005F688D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9031956C1A39E0EF005F688D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		903195531A39E0EF005F688D /* AutoCaddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903195711A39E0EF005F688D /* Build configuration list for PBXNativeTarget "AutoCaddy" */;
+			buildPhases = (
+				903195501A39E0EF005F688D /* Sources */,
+				903195511A39E0EF005F688D /* Frameworks */,
+				903195521A39E0EF005F688D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoCaddy;
+			productName = AutoCaddy;
+			productReference = 903195541A39E0EF005F688D /* AutoCaddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		903195661A39E0EF005F688D /* AutoCaddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903195741A39E0EF005F688D /* Build configuration list for PBXNativeTarget "AutoCaddyTests" */;
+			buildPhases = (
+				903195631A39E0EF005F688D /* Sources */,
+				903195641A39E0EF005F688D /* Frameworks */,
+				903195651A39E0EF005F688D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				903195691A39E0EF005F688D /* PBXTargetDependency */,
+			);
+			name = AutoCaddyTests;
+			productName = AutoCaddyTests;
+			productReference = 903195671A39E0EF005F688D /* AutoCaddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9031954C1A39E0EE005F688D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Larry Wells";
+				TargetAttributes = {
+					903195531A39E0EF005F688D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					903195661A39E0EF005F688D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 903195531A39E0EF005F688D;
+					};
+				};
+			};
+			buildConfigurationList = 9031954F1A39E0EE005F688D /* Build configuration list for PBXProject "AutoCaddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9031954B1A39E0EE005F688D;
+			productRefGroup = 903195551A39E0EF005F688D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				903195531A39E0EF005F688D /* AutoCaddy */,
+				903195661A39E0EF005F688D /* AutoCaddyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		903195521A39E0EF005F688D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9031955F1A39E0EF005F688D /* Images.xcassets in Resources */,
+				46779CDB1A586C47007494D7 /* Credits.rtf in Resources */,
+				903195621A39E0EF005F688D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903195651A39E0EF005F688D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		903195501A39E0EF005F688D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903195781A39E577005F688D /* AutoCaddy.swift in Sources */,
+				9031955D1A39E0EF005F688D /* AutoCaddy.xcdatamodeld in Sources */,
+				9031955A1A39E0EF005F688D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903195631A39E0EF005F688D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9031956E1A39E0EF005F688D /* AutoCaddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		903195691A39E0EF005F688D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 903195531A39E0EF005F688D /* AutoCaddy */;
+			targetProxy = 903195681A39E0EF005F688D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		903195601A39E0EF005F688D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903195611A39E0EF005F688D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9031956F1A39E0EF005F688D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		903195701A39E0EF005F688D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		903195721A39E0EF005F688D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AutoCaddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903195731A39E0EF005F688D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AutoCaddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903195751A39E0EF005F688D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutoCaddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoCaddy.app/Contents/MacOS/AutoCaddy";
+			};
+			name = Debug;
+		};
+		903195761A39E0EF005F688D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutoCaddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoCaddy.app/Contents/MacOS/AutoCaddy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9031954F1A39E0EE005F688D /* Build configuration list for PBXProject "AutoCaddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9031956F1A39E0EF005F688D /* Debug */,
+				903195701A39E0EF005F688D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903195711A39E0EF005F688D /* Build configuration list for PBXNativeTarget "AutoCaddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903195721A39E0EF005F688D /* Debug */,
+				903195731A39E0EF005F688D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903195741A39E0EF005F688D /* Build configuration list for PBXNativeTarget "AutoCaddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903195751A39E0EF005F688D /* Debug */,
+				903195761A39E0EF005F688D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9031955B1A39E0EF005F688D /* AutoCaddy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9031955C1A39E0EF005F688D /* AutoCaddy.xcdatamodel */,
+			);
+			currentVersion = 9031955C1A39E0EF005F688D /* AutoCaddy.xcdatamodel */;
+			path = AutoCaddy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9031954C1A39E0EE005F688D /* Project object */;
+}
